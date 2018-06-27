@@ -70,5 +70,125 @@
     "type": "framework",
     "name": "Bootstrap",
     "level": "90%"
+  },
+  {
+    "id": 13,
+    "type": "tool",
+    "name": "Command Line Interface",
+    "level": "70%"
+  },
+  {
+    "id": 14,
+    "type": "tool",
+    "name": "Git",
+    "level": "85%"
+  },
+  {
+    "id": 15,
+    "type": "tool",
+    "name": "Vim",
+    "level": "40%"
+  },
+  {
+    "id": 16,
+    "type": "tool",
+    "name": "Sublime Text",
+    "level": "90%"
+  },
+  {
+    "id": 17,
+    "type": "tool",
+    "name": "Atlassian / Jira",
+    "level": "80%"
+  },
+  {
+    "id": 18,
+    "type": "tool",
+    "name": "Trello",
+    "level": "90%"
+  },
+  {
+    "id": 19,
+    "type": "tool",
+    "name": "Amazon Web Services",
+    "level": "60%"
+  },
+  {
+    "id": 20,
+    "type": "tool",
+    "name": "Google Cloud Platform",
+    "level": "60%"
+  },
+  {
+    "id": 21,
+    "type": "tool",
+    "name": "Linux",
+    "level": "80%"
+  },
+  {
+    "id": 22,
+    "type": "tool",
+    "name": "macOS",
+    "level": "90%"
+  },
+  {
+    "id": 23,
+    "type": "other",
+    "name": "HTML5/CSS3",
+    "level": "90%"
+  },
+  {
+    "id": 24,
+    "type": "other",
+    "name": "jQuery",
+    "level": "85%"
+  },
+  {
+    "id": 25,
+    "type": "other",
+    "name": "SASS/SCSS",
+    "level": "90%"
+  },
+  {
+    "id": 26,
+    "type": "other",
+    "name": "SCRUM/Kanban",
+    "level": "80%"
+  },
+  {
+    "id": 27,
+    "type": "other",
+    "name": "RESTful API",
+    "level": "90%"
+  },
+  {
+    "id": 28,
+    "type": "other",
+    "name": "Markdown",
+    "level": "90%"
+  },
+  {
+    "id": 29,
+    "type": "other",
+    "name": "MongoDB/Mongoose",
+    "level": "50%"
+  },
+  {
+    "id": 30,
+    "type": "other",
+    "name": "nginx",
+    "level": "70%"
+  },
+  {
+    "id": 31,
+    "type": "other",
+    "name": "MySQL",
+    "level": "80%"
+  },
+  {
+    "id": 32,
+    "type": "other",
+    "name": "SQLAlchemy",
+    "level": "60%"
   }
 ]
