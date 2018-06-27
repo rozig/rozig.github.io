@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "type": "exp",
+    "timeframe": "2013 - 2017",
+    "heading": "Freelancing",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+  },
+  {
+    "id": 2,
+    "type": "exp",
+    "timeframe": "Jun 2016 - Nov 2017",
+    "heading": "Infinite Solutions LLC",
+    "title": "Full-stack developer",
+    "location": "Ulaanbaatar, Mongolia",
+    "summary": "Played key role in development, deployment, troubleshooting, and maintenance of enterprise-level software."
+  }
+]

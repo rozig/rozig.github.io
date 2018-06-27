@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "anchor": "#intro",
+    "name": "Intro"
+  },
+  {
+    "id": 2,
+    "anchor": "#education",
+    "name": "Education"
+  },
+  {
+    "id": 3,
+    "anchor": "#experience",
+    "name": "Experience"
+  },
+  {
+    "id": 4,
+    "anchor": "#skills",
+    "name": "Skills"
+  }
+]

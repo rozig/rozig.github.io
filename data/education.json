@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "type": "edu",
+    "timeframe": "Oct 2017 - Current",
+    "heading": "Maharishi University of Management",
+    "title": "Master of Computer Science",
+    "location": "Fairfield, IA",
+    "summary": "In progress via distance education; expected completion June 20, 2020"
+  },
+  {
+    "id": 2,
+    "type": "edu",
+    "timeframe": "Aug 2013 - Jan 2017",
+    "heading": "Mongolian University of Science and Technology",
+    "title": "Bacholer of Software Engineering",
+    "location": "Ulaanbaatar, Mongolia"
+  }
+]
