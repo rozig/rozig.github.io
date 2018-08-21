@@ -9,6 +9,15 @@
   {
     "id": 2,
     "type": "exp",
+    "timeframe": "Aug 2018 - Current",
+    "heading": "Genius Plaza Inc.",
+    "title": "Back End Developer",
+    "location": "Miami, FL",
+    "summary": "Python/Django, Django REST Framework developer"
+  },
+  {
+    "id": 3,
+    "type": "exp",
     "timeframe": "Jun 2016 - Nov 2017",
     "heading": "Infinite Solutions LLC",
     "title": "Full-stack developer",
