@@ -44,32 +44,32 @@
   {
     "id": 8,
     "type": "framework",
-    "name": "Symfony",
+    "name": "Django REST",
     "level": "90%"
   },
   {
     "id": 9,
     "type": "framework",
-    "name": "Express (Node.js)",
-    "level": "80%"
+    "name": "Symfony",
+    "level": "90%"
   },
   {
     "id": 10,
     "type": "framework",
-    "name": "AngularJS",
-    "level": "70%"
+    "name": "Express (Node.js)",
+    "level": "80%"
   },
   {
     "id": 11,
     "type": "framework",
-    "name": "Angular",
-    "level": "85%"
+    "name": "React.js",
+    "level": "60%"
   },
   {
     "id": 12,
     "type": "framework",
-    "name": "Bootstrap",
-    "level": "90%"
+    "name": "Angular",
+    "level": "85%"
   },
   {
     "id": 13,
