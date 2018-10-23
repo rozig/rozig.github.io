@@ -16,8 +16,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   skip-cleanup: true
   keep-history: true
-  repo: rozig/rozig.github.io
-  target-branch: master
   fqdn: rozig.me
   on:
     branch: master
