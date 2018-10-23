@@ -1,0 +1,115 @@
+@import './../../global/colors';
+
+.header {
+  position:relative;
+  padding:10px 50px;
+  height:70px;
+  z-index:3;
+  .logo {
+    position:relative;
+    display:block;
+    height:50px;
+    float:left;
+    margin:0;
+    .name {
+      line-height:30px;
+      font-weight:bold;
+      font-size:30px;
+      padding:10px;
+      height:100%;
+    }
+  }
+  .nav {
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:50px;
+    overflow:hidden;
+    float:right;
+    padding:0;
+    margin:0;
+    .nav-item {
+      display:inline-block;
+      font-size:16px;
+      padding:0 20px;
+      &::before, &::after {
+        -webkit-transition:-webkit-transform 0.3s, opacity 0.2s;
+        -moz-transition:-moz-transform 0.3s, opacity 0.2s;
+        transition:transform 0.3s, opacity 0.2s;
+        display:inline-block;
+        opacity:0;
+      }
+      &::before {
+        -webkit-transform:translateX(20px);
+        -moz-transform:translateX(20px);
+        transform:translateX(20px);
+        margin-right:10px;
+        content:'[';
+      }
+      &::after {
+        -webkit-transform:translateX(-20px);
+        -moz-transform:translateX(-20px);
+        transform:translateX(-20px);
+        margin-left:10px;
+        content:']';
+      }
+      &:hover::before,
+      &:hover::after,
+      &:focus::before,
+      &:focus::after,
+      &.active::before,
+      &.active::after {
+        -webkit-transform:translateX(0px);
+        -moz-transform:translateX(0px);
+        transform:translateX(0px);
+        opacity:1;
+      }
+      &.active { color:$text-hover; }
+    }
+  }
+  .social-links {
+    line-height:50px;
+    overflow:hidden;
+    float:right;
+    padding:0;
+    margin:0;
+    margin-left:40px;
+    .social-link {
+      display:inline-block;
+      font-size:18px;
+      padding:0 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    overflow:hidden;
+    padding:10px 0;
+    height:auto;
+    width:100%;
+    .logo, .nav, .social-links {
+      text-align:center;
+      width:100%;
+    }
+    .logo {
+      height:auto;
+      .name {
+        line-height:unset;
+        font-size:48px;
+        padding:0;
+      }
+    }
+    .nav {
+      text-align:center;
+      .nav-item {
+        font-size:16px;
+        padding:0 10px;
+      }
+    }
+    .social-links {
+      line-height:30px;
+      margin-top:10px;
+      .social-link { font-size:20px;padding:0 20px; }
+    }
+  }
+}

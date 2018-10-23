@@ -1,0 +1,90 @@
+@import 'global/colors';
+@import 'global/fonts';
+
+*, ::after, ::before {
+  box-sizing:border-box;
+}
+
+html {
+  position:relative;
+  overflow:hidden;
+  display:block;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family:$fira-sans;
+  background-color:$bg;
+  overflow:hidden;
+  display:block;
+  height:100%;
+  color:$text;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+body a {
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all;
+  transition:.5s all;
+  text-decoration:none;
+  color:$text;
+  outline:0;
+  &:hover {
+    color:$text-hover;
+  }
+}
+
+#root {
+  overflow-y:scroll;
+  height:100%;
+  width:100%;
+}
+
+.row {
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  margin-right:-15px;
+  margin-left:-15px;
+  .col {
+    position:relative;
+    width:100%;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+    &.col-6 {
+      -ms-flex:0 0 50%;
+      flex:0 0 50%;
+      max-width:50%;
+    }
+  }
+}
+
+.container {
+  width:1200px;
+  height:100%;
+  margin:auto;
+  .page-content {
+    position:relative;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container { width: 100%; }
+}
+
+@media only screen and (max-width: 768px) {
+  .row .col {
+    &.col-6 {
+      -ms-flex:0 0 100%;
+      flex:0 0 100%;
+      max-width:100%;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import './../../global/colors';
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding:0;
+    .skill-category {
+      font-size:18px;
+    }
+  }
+}

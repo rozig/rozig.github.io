@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "stable"
+install:
+  - yarn global add codecov
+cache:
+  directories:
+    - node_modules
+script:
+  - yarn test
+  - codecov
+  - yarn run build
+deploy:
+  provider: pages
+  local-dir: build
+  github-token: $GITHUB_TOKEN
+  skip-cleanup: true
+  keep-history: true
+  repo: rozig/rozig.github.io
+  target-branch: master
+  fqdn: rozig.me
+  on:
+    branch: master
