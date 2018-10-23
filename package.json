@@ -34,12 +34,6 @@
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
-  "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
-  },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
@@ -47,6 +41,6 @@
   "scripts": {
     "start": "webpack-dev-server --inline --hot --history-api-fallback",
     "build": "rm -rf build && webpack",
-    "test": "jest"
+    "test": "jest -u"
   }
 }
