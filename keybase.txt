@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ganzorig
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rozig.me
+  * I am ganzorig (https://keybase.io/ganzorig) on keybase.
+  * I have a public key ASDk5Sk4aKL2b7f9a9ujlycr6oBrC0ue3U7cHBpACoidqgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e4e5293868a2f66fb7fd6bdba397272bea806b0b4b9edd4edc1c1a400a889daa0a",
+      "host": "keybase.io",
+      "kid": "0120e4e5293868a2f66fb7fd6bdba397272bea806b0b4b9edd4edc1c1a400a889daa0a",
+      "uid": "d82f1fdf56f666ec55351ec739217c19",
+      "username": "ganzorig"
+    },
+    "merkle_root": {
+      "ctime": 1544039208,
+      "hash": "9cb0b743c8aeea18b5fdce6b68f2dd2d925419b5c7383eaf7e990b40fa25e585868c7499282a357ddee38345c1a23faf5edc5b0ff74cfb1127fb12ea18234167",
+      "hash_meta": "cbf1f4981e847fd9af0401e6a539150724ba873142ac5c40e5bbc0ab5eb70472",
+      "seqno": 4058088
+    },
+    "service": {
+      "entropy": "Yq56H63gII8KjSuvKKcfZWn4",
+      "hostname": "rozig.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1544039216,
+  "expire_in": 504576000,
+  "prev": "7141267bb13ded79abb8f3a1e1bbb6c58d02e3361242c5dc756ae58d23732eb6",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5OUpOGii9m+3/Wvbo5cnK+qAawtLnt1O3BwaQAqInaoKp3BheWxvYWTESpcCD8QgcUEme7E97XmruPOh4bu2xY0C4zYSQsXcdWrljSNzLrbEIHq/44jrZifur3RTax0L5h4fZzpPP8+FciW9L7bRl5QAAgHCo3NpZ8RAsho8jPpZpkSqIme+ORTL6ITizMXG0CGsAMQooyCkoo4Y5IgltygOTb1Yqly3o9PCyLi1dn5MT5MESPp05akWB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC3zyUWD3IPPTLzNernpma23Mauw8hNYWqVep1dqVZWpo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ganzorig
+
+==================================================================
