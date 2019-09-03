@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="col col-6">
               <div className="item">
                 <FontAwesomeIcon className="icon" icon={faMapMarkerAlt}/>
-                <div>Miami, FL</div>
+                <div>San Francisco, CA</div>
               </div>
               <div className="item">
                 <a target="_blank" href="https://medium.com/@rozig">
@@ -55,9 +55,9 @@ const Contact = () => {
                 </a>
               </div>
               <div className="item">
-                <a href="mailto:ping@rozig.me">
+                <a href="mailto:the.ganzorig25@gmail.com">
                   <FontAwesomeIcon className="icon" icon={faEnvelope}/>
-                  <div>ping@rozig.me</div>
+                  <div>the.ganzorig25@gmail.com</div>
                 </a>
               </div>
               <div className="item">

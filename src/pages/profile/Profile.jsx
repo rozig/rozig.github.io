@@ -46,7 +46,7 @@ class Profile extends Component {
           </div>
           <div className="section-content">
             <p className="about-me">
-              I am a full-stack engineer experienced developing web and enterprise applications under banking, financial and education domains. I specialized in following frameworks: Django, Django REST, Symfony and Angular. I'm good at developing web design with HTML5, CSS3, jQuery and JavaScript but I don't enjoy as much as developing backend system. My main working environment is a Linux and I also have little experience with DevOps tools like nagios, jenkins, docker etc.
+              I am a full-stack engineer with 3 years of experience developing front-end and back-end applications using React.js and Python Django frameworks. Professional experience developing microservices and API gateways on Python and integrating CI/CD on AWS (ECS, S3, RDS) with Jenkins and Git.
             </p>
           </div>
         </section>
