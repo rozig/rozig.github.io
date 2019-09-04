@@ -15,7 +15,6 @@ deploy:
   skip-cleanup: true
   keep-history: true
   target-branch: master
-  fqdn: rozig.me
   on:
     branch: dev
 branches:
