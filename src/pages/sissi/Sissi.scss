@@ -29,3 +29,15 @@
         color: $main;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+  .page-content.sissi { width:100%;padding:0 20px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content.sissi {
+    margin: 100px auto 50px;
+    width:100%;
+    .icebear-dialog { left: 40%; }
+  }
+}
