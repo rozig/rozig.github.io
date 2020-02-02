@@ -263,7 +263,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".page-content.sissi {\\n  position: relative;\\n  margin: 200px auto;\\n  width: 860px;\\n  padding: 0; }\\n  .page-content.sissi .icebear-dialog {\\n    background-color: #ffffff;\\n    border: 1px solid #d81159;\\n    border-radius: 6px;\\n    position: absolute;\\n    text-align: center;\\n    padding: 10px 16px;\\n    width: 180px;\\n    left: 50%;\\n    top: -100px; }\\n  .page-content.sissi .icebear-img {\\n    margin: 10px auto;\\n    display: block;\\n    height: 240px;\\n    width: 240px; }\\n  .page-content.sissi .icebear-pg {\\n    text-align: center;\\n    font-weight: bold;\\n    font-size: 24px;\\n    color: #d81159; }\\n\\n@media only screen and (max-width: 1200px) {\\n  .page-content.sissi {\\n    width: 100%;\\n    padding: 0 20px; } }\\n\\n@media only screen and (max-width: 768px) {\\n  .page-content.sissi {\\n    margin: 100px auto 50px;\\n    width: 100%; }\\n    .page-content.sissi .icebear-dialog {\\n      left: 40%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/pages/sissi/Sissi.scss?./node_modules/css-loader!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".page-content.sissi {\\n  position: relative;\\n  margin: 80px auto;\\n  width: 860px;\\n  padding: 0; }\\n  .page-content.sissi .icebear-dialog {\\n    background-color: #ffffff;\\n    border: 1px solid #d81159;\\n    border-radius: 6px;\\n    position: absolute;\\n    text-align: center;\\n    padding: 10px 16px;\\n    width: 180px;\\n    left: 50%;\\n    top: -100px; }\\n  .page-content.sissi .icebear-img {\\n    margin: 10px auto;\\n    display: block;\\n    height: 240px;\\n    width: 240px; }\\n  .page-content.sissi .icebear-pg {\\n    text-align: center;\\n    font-weight: bold;\\n    font-size: 24px;\\n    color: #d81159; }\\n  .page-content.sissi .icebear-letter {\\n    font-family: 'Euphoria Script', cursive;\\n    line-height: 36px;\\n    font-size: 22px; }\\n    .page-content.sissi .icebear-letter .letter-head {\\n      margin-bottom: 36px;\\n      font-size: 54px; }\\n    .page-content.sissi .icebear-letter .letter-foot {\\n      margin-top: 36px; }\\n  .page-content.sissi .icebear-emoji {\\n    margin: 0 5px;\\n    height: 24px;\\n    width: 24px; }\\n\\n@media only screen and (max-width: 1200px) {\\n  .page-content.sissi {\\n    width: 100%;\\n    padding: 0 20px; } }\\n\\n@media only screen and (max-width: 768px) {\\n  .page-content.sissi {\\n    margin: 20px auto 50px;\\n    width: 100%; }\\n    .page-content.sissi .icebear-dialog {\\n      left: 40%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/pages/sissi/Sissi.scss?./node_modules/css-loader!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -904,14 +904,91 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!../nod
 
 /***/ }),
 
-/***/ "./src/assets/icebear_sad.png":
+/***/ "./src/assets/icebear-crying.png":
+/*!***************************************!*\
+  !*** ./src/assets/icebear-crying.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6029d8ee29c0161da4d14e5d1c53dfff.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-crying.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-disapproves.png":
+/*!********************************************!*\
+  !*** ./src/assets/icebear-disapproves.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"16d904f3da247910acc1cf7bc51af32c.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-disapproves.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-facepalm.png":
+/*!*****************************************!*\
+  !*** ./src/assets/icebear-facepalm.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e61b38f3c2ffec63bc9fb36259c5e3fa.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-facepalm.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-flex.png":
+/*!*************************************!*\
+  !*** ./src/assets/icebear-flex.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"06eb65af39b564f3eff452dfd399b71e.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-flex.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-heart.png":
+/*!**************************************!*\
+  !*** ./src/assets/icebear-heart.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b3d16b60673e47d0e1ff8df2b59af437.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-heart.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-holding-heart.png":
+/*!**********************************************!*\
+  !*** ./src/assets/icebear-holding-heart.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"db26cf07d906d8fe6ce47234c332233a.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-holding-heart.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-loves.png":
+/*!**************************************!*\
+  !*** ./src/assets/icebear-loves.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d1cd87b7a7b55de9f3d262d4ca77ac2f.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-loves.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icebear-paw.png":
 /*!************************************!*\
-  !*** ./src/assets/icebear_sad.png ***!
+  !*** ./src/assets/icebear-paw.png ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"1bb84f94fc853024cdadad70f331554a.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear_sad.png?");
+eval("module.exports = __webpack_require__.p + \"f9797dec1a0bb3a3f3f9604e9de11ccf.png\";\n\n//# sourceURL=webpack:///./src/assets/icebear-paw.png?");
 
 /***/ }),
 
@@ -1130,7 +1207,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactFontawesome = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"./node_modules/@fortawesome/react-fontawesome/index.es.js\");\n\nvar _freeSolidSvgIcons = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"./node_modules/@fortawesome/free-solid-svg-icons/index.es.js\");\n\nvar _icebear_sad = __webpack_require__(/*! ./../../assets/icebear_sad.png */ \"./src/assets/icebear_sad.png\");\n\nvar _icebear_sad2 = _interopRequireDefault(_icebear_sad);\n\n__webpack_require__(/*! ./Sissi.scss */ \"./src/pages/sissi/Sissi.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Sissi = function (_Component) {\n  _inherits(Sissi, _Component);\n\n  function Sissi(props) {\n    _classCallCheck(this, Sissi);\n\n    var _this = _possibleConstructorReturn(this, (Sissi.__proto__ || Object.getPrototypeOf(Sissi)).call(this, props));\n\n    _this.state = {};\n    return _this;\n  }\n\n  _createClass(Sissi, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {}\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'page-content sissi' },\n        _react2.default.createElement(\n          'div',\n          { className: 'icebear-dialog' },\n          'Ice bear is feeling very sorry for not doing what he supposed to do.'\n        ),\n        _react2.default.createElement('img', { className: 'icebear-img sad', src: _icebear_sad2.default }),\n        _react2.default.createElement(\n          'p',\n          { className: 'icebear-pg' },\n          'Forgive me Sissi :\\'('\n        )\n      );\n    }\n  }]);\n\n  return Sissi;\n}(_react.Component);\n\n;\n\nexports.default = Sissi;\n\n//# sourceURL=webpack:///./src/pages/sissi/Sissi.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactFontawesome = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"./node_modules/@fortawesome/react-fontawesome/index.es.js\");\n\nvar _freeSolidSvgIcons = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"./node_modules/@fortawesome/free-solid-svg-icons/index.es.js\");\n\nvar _icebearHeart = __webpack_require__(/*! ./../../assets/icebear-heart.png */ \"./src/assets/icebear-heart.png\");\n\nvar _icebearHeart2 = _interopRequireDefault(_icebearHeart);\n\nvar _icebearCrying = __webpack_require__(/*! ./../../assets/icebear-crying.png */ \"./src/assets/icebear-crying.png\");\n\nvar _icebearCrying2 = _interopRequireDefault(_icebearCrying);\n\nvar _icebearFacepalm = __webpack_require__(/*! ./../../assets/icebear-facepalm.png */ \"./src/assets/icebear-facepalm.png\");\n\nvar _icebearFacepalm2 = _interopRequireDefault(_icebearFacepalm);\n\nvar _icebearFlex = __webpack_require__(/*! ./../../assets/icebear-flex.png */ \"./src/assets/icebear-flex.png\");\n\nvar _icebearFlex2 = _interopRequireDefault(_icebearFlex);\n\nvar _icebearDisapproves = __webpack_require__(/*! ./../../assets/icebear-disapproves.png */ \"./src/assets/icebear-disapproves.png\");\n\nvar _icebearDisapproves2 = _interopRequireDefault(_icebearDisapproves);\n\nvar _icebearLoves = __webpack_require__(/*! ./../../assets/icebear-loves.png */ \"./src/assets/icebear-loves.png\");\n\nvar _icebearLoves2 = _interopRequireDefault(_icebearLoves);\n\nvar _icebearHoldingHeart = __webpack_require__(/*! ./../../assets/icebear-holding-heart.png */ \"./src/assets/icebear-holding-heart.png\");\n\nvar _icebearHoldingHeart2 = _interopRequireDefault(_icebearHoldingHeart);\n\nvar _icebearPaw = __webpack_require__(/*! ./../../assets/icebear-paw.png */ \"./src/assets/icebear-paw.png\");\n\nvar _icebearPaw2 = _interopRequireDefault(_icebearPaw);\n\n__webpack_require__(/*! ./Sissi.scss */ \"./src/pages/sissi/Sissi.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n// import IceBearSad from './../../assets/icebear-sad.png';\n\n\nvar Sissi = function (_Component) {\n  _inherits(Sissi, _Component);\n\n  function Sissi(props) {\n    _classCallCheck(this, Sissi);\n\n    var _this = _possibleConstructorReturn(this, (Sissi.__proto__ || Object.getPrototypeOf(Sissi)).call(this, props));\n\n    _this.state = {};\n    return _this;\n  }\n\n  _createClass(Sissi, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {}\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'page-content sissi' },\n        _react2.default.createElement(\n          'div',\n          { className: 'icebear-letter' },\n          _react2.default.createElement(\n            'div',\n            { className: 'letter-head' },\n            'Dear love,'\n          ),\n          _react2.default.createElement(\n            'div',\n            { className: 'letter-content' },\n            'I\\'m truly sorry for my senseless actions. I just want to apologize through this page and want you to know that how much you mean to me and how much I love you ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearHeart2.default }),\n            '. Right now, I\\'m feeling really bad for hurting your feelings when you showed how much you trust me and love me. I, in the other side, talking about things I was not supposed to, making actions I shouldn\\'t which makes you angry and not being able to help you in your tough times ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearCrying2.default }),\n            '. As you said I\\'m really senseless one, like a frozen potato who doesn\\'t even know to figure out how you\\'re feeling, what I supposed to do to make you calm ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearFacepalm2.default }),\n            '. But I also want you to know that I\\'m still trying my best to attract your attention, love, soul, pretty much everything. I always want to help you with anything I can, if it is something I can\\'t I want to give it a try ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearFlex2.default }),\n            '. I will never want to see you crying, hurt, tired or sad ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearDisapproves2.default }),\n            '. But I will always want to see you being happy, smiling and loved ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearLoves2.default }),\n            '. Last but not least, you and I are already living together, loving each other in my head and I want to make it happen ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearHoldingHeart2.default }),\n            '.'\n          ),\n          _react2.default.createElement(\n            'div',\n            { className: 'letter-foot' },\n            'Love,',\n            _react2.default.createElement('br', null),\n            'Icebear ',\n            _react2.default.createElement('img', { className: 'icebear-emoji', src: _icebearPaw2.default })\n          )\n        )\n      );\n    }\n  }]);\n\n  return Sissi;\n}(_react.Component);\n\n;\n\nexports.default = Sissi;\n\n//# sourceURL=webpack:///./src/pages/sissi/Sissi.jsx?");
 
 /***/ }),
 
