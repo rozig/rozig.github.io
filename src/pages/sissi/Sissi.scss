@@ -2,7 +2,7 @@
 
 .page-content.sissi {
     position: relative;
-    margin: 200px auto;
+    margin: 80px auto;
     width: 860px;
     padding: 0;
     .icebear-dialog {
@@ -28,6 +28,25 @@
         font-size: 24px;
         color: $main;
     }
+    .icebear-letter {
+        font-family: 'Euphoria Script', cursive;
+        line-height: 36px;
+        font-size: 22px;
+        .letter-head {
+            margin-bottom: 36px;
+            font-size: 54px;
+        }
+        .letter-foot {
+            margin-top: 36px;
+        }
+        .icebear-emoji {
+        }
+    }
+    .icebear-emoji {
+        margin: 0 5px;
+        height: 24px;
+        width: 24px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -36,7 +55,7 @@
 
 @media only screen and (max-width: 768px) {
   .page-content.sissi {
-    margin: 100px auto 50px;
+    margin: 20px auto 50px;
     width:100%;
     .icebear-dialog { left: 40%; }
   }
