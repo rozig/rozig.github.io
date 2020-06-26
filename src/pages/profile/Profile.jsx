@@ -46,7 +46,7 @@ class Profile extends Component {
           </div>
           <div className="section-content">
             <p className="about-me">
-              I am a full-stack engineer with 3 years of experience developing front-end and back-end applications using React.js and Python Django frameworks. Professional experience developing microservices and API gateways on Python and integrating CI/CD on AWS (ECS, S3, RDS) with Jenkins and Git.
+              I am a software engineer with over 3 years of experience working on front-end and back-end applications using Javascript and Python. Currently working as a Data Engineer at WithMe Health.
             </p>
           </div>
         </section>

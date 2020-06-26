@@ -9,14 +9,23 @@
   {
     "id": 2,
     "type": "exp",
-    "timeframe": "Aug 2018 - Current",
-    "heading": "Genius Plaza Inc.",
-    "title": "Back End Developer",
-    "location": "Miami, FL",
-    "summary": "Python/Django, Django REST Framework developer"
+    "timeframe": "Oct 2019 - Present",
+    "heading": "WithMe Health",
+    "title": "Data Engineer",
+    "location": "San Mateo, CA",
+    "summary": "Mostly working on data pipeline. Technologies used: Python, Kafka, ElasticSearch, Cassandra, Docker, K8s, AWS."
   },
   {
     "id": 3,
+    "type": "exp",
+    "timeframe": "Aug 2018 - Sep 2019",
+    "heading": "Genius Plaza Inc.",
+    "title": "Back End Developer",
+    "location": "Miami, FL",
+    "summary": "Worked on micro-service and web application development. Technologies used: Python, Django, DRF, Docker, AWS, Javascript, React.js."
+  },
+  {
+    "id": 4,
     "type": "exp",
     "timeframe": "Jun 2016 - Nov 2017",
     "heading": "Infinite Solutions LLC",
