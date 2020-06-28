@@ -11,7 +11,6 @@ import './App.scss';
 import Home from './pages/home/Home';
 import Profile from './pages/profile/Profile';
 import Contact from './pages/contact/Contact';
-import Sissi from './pages/sissi/Sissi';
 
 import Header from './components/header/Header';
 
@@ -24,7 +23,6 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/profile" component={Profile} />
           <Route path="/contact" component={Contact} />
-          <Route path="/sissi" component={Sissi} />
           <Redirect to="/" />
         </Switch>
       </div>
