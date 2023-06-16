@@ -1,22 +1,31 @@
 [
   {
-    "id": 1,
+    "id": 99,
     "type": "exp",
     "timeframe": "2013 - Present",
     "heading": "Freelancing",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
   },
   {
-    "id": 2,
+    "id": 4,
     "type": "exp",
-    "timeframe": "Oct 2019 - Present",
-    "heading": "WithMe Health",
-    "title": "Data Engineer",
-    "location": "San Mateo, CA",
-    "summary": "Mostly working on data pipeline. Technologies used: Python, Kafka, ElasticSearch, Cassandra, Docker, K8s, AWS."
+    "timeframe": "May 2022 - Present",
+    "heading": "Mux",
+    "title": "Software Engineer",
+    "location": "San Francisco, CA",
+    "summary": "Coding in elixir ..."
   },
   {
     "id": 3,
+    "type": "exp",
+    "timeframe": "Oct 2019 - May 2022",
+    "heading": "WithMe Health",
+    "title": "Senior Software Engineer",
+    "location": "San Mateo, CA",
+    "summary": "Worked on ETL pipelines and distributed systems. Technologies used: Python, Kafka, ElasticSearch, Cassandra, Docker, K8s, AWS."
+  },
+  {
+    "id": 2,
     "type": "exp",
     "timeframe": "Aug 2018 - Sep 2019",
     "heading": "Genius Plaza Inc.",
@@ -25,7 +34,7 @@
     "summary": "Worked on micro-service and web application development. Technologies used: Python, Django, DRF, Docker, AWS, Javascript, React.js."
   },
   {
-    "id": 4,
+    "id": 1,
     "type": "exp",
     "timeframe": "Jun 2016 - Nov 2017",
     "heading": "Infinite Solutions LLC",
