@@ -1,194 +1,146 @@
 [
   {
-    "id": 1,
+    "id": "python",
     "type": "language",
     "name": "Python",
-    "level": "90%"
+    "since": "2016-06-01"
   },
   {
-    "id": 2,
-    "type": "language",
-    "name": "PHP",
-    "level": "90%"
-  },
-  {
-    "id": 3,
+    "id": "javascript",
     "type": "language",
     "name": "JavaScript",
-    "level": "80%"
+    "since": "2016-06-01"
   },
   {
-    "id": 4,
+    "id": "typescript",
     "type": "language",
     "name": "TypeScript",
-    "level": "80%"
+    "since": "2019-10-01"
   },
   {
-    "id": 5,
-    "type": "language",
-    "name": "Shell",
-    "level": "60%"
-  },
-  {
-    "id": 6,
+    "id": "sql",
     "type": "language",
     "name": "SQL",
-    "level": "70%"
+    "since": "2016-06-01"
   },
   {
-    "id": 7,
+    "id": "elixir",
+    "type": "language",
+    "name": "Elixir",
+    "since": "2022-05-01"
+  },
+  {
+    "id": "django",
     "type": "framework",
     "name": "Django",
-    "level": "90%"
+    "since": "2016-06-01"
   },
   {
-    "id": 8,
-    "type": "framework",
-    "name": "Django REST",
-    "level": "90%"
-  },
-  {
-    "id": 9,
-    "type": "framework",
-    "name": "Symfony",
-    "level": "90%"
-  },
-  {
-    "id": 10,
-    "type": "framework",
-    "name": "Express (Node.js)",
-    "level": "80%"
-  },
-  {
-    "id": 11,
+    "id": "react-js",
     "type": "framework",
     "name": "React.js",
-    "level": "60%"
+    "since": "2016-06-01"
   },
   {
-    "id": 12,
+    "id": "flask",
     "type": "framework",
-    "name": "Angular",
-    "level": "85%"
+    "name": "Flask",
+    "since": "2016-06-01"
   },
   {
-    "id": 13,
+    "id": "fast-api",
+    "type": "framework",
+    "name": "Fast API",
+    "since": "2019-10-01"
+  },
+  {
+    "id": "phoenix",
+    "type": "framework",
+    "name": "Phoenix",
+    "since": "2022-05-01"
+  },
+  {
+    "id": "cli",
     "type": "tool",
     "name": "Command Line Interface",
-    "level": "70%"
+    "since": "2016-06-01"
   },
   {
-    "id": 14,
+    "id": "git",
     "type": "tool",
     "name": "Git",
-    "level": "85%"
+    "since": "2016-06-01"
   },
   {
-    "id": 15,
-    "type": "tool",
-    "name": "Vim",
-    "level": "40%"
-  },
-  {
-    "id": 16,
-    "type": "tool",
-    "name": "Sublime Text",
-    "level": "90%"
-  },
-  {
-    "id": 17,
-    "type": "tool",
-    "name": "Atlassian / Jira",
-    "level": "80%"
-  },
-  {
-    "id": 18,
-    "type": "tool",
-    "name": "Trello",
-    "level": "90%"
-  },
-  {
-    "id": 19,
+    "id": "aws",
     "type": "tool",
     "name": "Amazon Web Services",
-    "level": "60%"
+    "since": "2016-06-01"
   },
   {
-    "id": 20,
-    "type": "tool",
-    "name": "Google Cloud Platform",
-    "level": "60%"
-  },
-  {
-    "id": 21,
+    "id": "linux",
     "type": "tool",
     "name": "Linux",
-    "level": "80%"
+    "since": "2016-06-01"
   },
   {
-    "id": 22,
+    "id": "docker",
     "type": "tool",
-    "name": "macOS",
-    "level": "90%"
+    "name": "Docker",
+    "since": "2016-06-01"
   },
   {
-    "id": 23,
-    "type": "other",
-    "name": "HTML5/CSS3",
-    "level": "90%"
+    "id": "gcp",
+    "type": "tool",
+    "name": "Google Cloud Platform",
+    "since": "2019-10-01"
   },
   {
-    "id": 24,
-    "type": "other",
-    "name": "jQuery",
-    "level": "85%"
+    "id": "kafka",
+    "type": "tool",
+    "name": "Kafka",
+    "since": "2019-10-01"
   },
   {
-    "id": 25,
-    "type": "other",
-    "name": "SASS/SCSS",
-    "level": "90%"
+    "id": "k8s",
+    "type": "tool",
+    "name": "K8s",
+    "since": "2019-10-01"
   },
   {
-    "id": 26,
-    "type": "other",
-    "name": "SCRUM/Kanban",
-    "level": "80%"
-  },
-  {
-    "id": 27,
+    "id": "restful-api",
     "type": "other",
     "name": "RESTful API",
-    "level": "90%"
+    "since": "2016-06-01"
   },
   {
-    "id": 28,
+    "id": "postgres",
     "type": "other",
-    "name": "Markdown",
-    "level": "90%"
+    "name": "PostgreSQL",
+    "since": "2016-06-01"
   },
   {
-    "id": 29,
+    "id": "redis",
     "type": "other",
-    "name": "MongoDB/Mongoose",
-    "level": "50%"
+    "name": "Redis",
+    "since": "2019-10-01"
   },
   {
-    "id": 30,
+    "id": "hazelcast",
     "type": "other",
-    "name": "nginx",
-    "level": "70%"
+    "name": "Hazelcast IMDG",
+    "since": "2019-10-01"
   },
   {
-    "id": 31,
+    "id": "mysql",
     "type": "other",
     "name": "MySQL",
-    "level": "80%"
+    "since": "2016-06-01"
   },
   {
-    "id": 32,
+    "id": "clickhouse",
     "type": "other",
-    "name": "SQLAlchemy",
-    "level": "60%"
+    "name": "Clickhouse",
+    "since": "2022-05-01"
   }
 ]

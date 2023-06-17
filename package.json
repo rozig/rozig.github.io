@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ganzorig Erdenebat",
-  "homepage": "https://rozig.me/",
+  "homepage": "https://rozig.github.io/",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.0",
-    "@fortawesome/free-brands-svg-icons": "^5.1.0",
-    "@fortawesome/free-solid-svg-icons": "^5.1.0",
-    "@fortawesome/react-fontawesome": "^0.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "codecov": "^3.1.0",
-    "global": "^4.3.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1"
+    "global": "^4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
+    "styled-components": "^6.0.0-rc.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -24,9 +25,10 @@
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
-    "node-sass": "^4.9.0",
+    "sass": "^1.63.4",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
@@ -39,8 +41,13 @@
     "collectCoverage": true
   },
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --history-api-fallback",
-    "build": "rm -rf build && webpack",
-    "test": "jest -u"
+    "start": "webpack-dev-server --inline --hot --history-api-fallback --mode=development",
+    "build": "rm -rf build && webpack -p --mode=production",
+    "test": "jest -u",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "resolution": {
+    "styled-components": "^6"
   }
 }

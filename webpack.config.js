@@ -7,11 +7,16 @@ const webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
   entry: path.join(__dirname, 'src', 'App.jsx'),
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.join(__dirname, 'build'),
     publicPath: '/',
     filename: '[name]-[hash].js'
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -35,10 +40,6 @@ module.exports = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             use: 'babel-loader'
-        },
-        {
-            test: /\.scss$/,
-            use: ['style-loader', 'css-loader', 'sass-loader']
         },
         {
             test: /\.(jpe?g|png|gif)$/,
