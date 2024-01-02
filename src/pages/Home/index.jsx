@@ -4,52 +4,27 @@ import { styled } from 'styled-components';
 import { colors, Page } from './../../global';
 
 const Container = styled(Page)`
-  position: absolute;
-  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  width: 100%;
-  z-index: 1;
-  left: 0;
-  top: 0;
 
   @media only screen and (max-width: 768px) {
-    padding-top: 170px;
+    align-items: flex-start;
   }
 `;
 
 const ContentWrapper = styled.div`
-  margin-left: -400px;
-  margin-top: -142px;
-  position: absolute;
-  overflow: hidden;
-  height: 284px;
   width: 800px;
-  left: 50%;
-  top: 50%;
-
-  @media only screen and (max-width: 1200px) {
-    padding: 0 50px;
-    margin-left: 0;
-    width: 100%;
-    left: 0;
-  }
 
   @media only screen and (max-width: 768px) {
-    position: relative;
-    padding: 30px 20px;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    top: 0;
+    padding: 80px 20px 0 20px;
   }
 `;
 
 const Headline = styled.h1`
   font-weight: normal;
-  margin-bottom: 0;
-  margin-top: 10px;
   font-size: 48px;
+  margin: 0;
 
   strong { font-size: 56px; }
 
@@ -65,14 +40,10 @@ const Highlight = styled.span`
 `;
 
 const Info = styled.p`
-  font-size: 18px;
   color: ${colors.textAlt};
   font-weight: normal;
+  font-size: 18px;
   margin: 10px 0;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 18px;
-  }
 `;
 
 const Home = () => (

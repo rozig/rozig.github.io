@@ -12,35 +12,29 @@ import ScrollSpy from './../../components/ScrollSpy';
 import { colors, Page } from './../../global';
 
 const Container = styled(Page)`
-  height: 100%;
-  width: 860px;
-  margin: auto;
-  padding: 0;
-
-  @media only screen and (max-width: 1200px) {
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-  }
+  justify-content: center;
+  flex-direction: column;
 `;
 
 const Section = styled.section`
-  padding: 20px 0;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  width: 850px;
+  margin-top: 30px;
 
-  @media only screen and (max-width: 768px) {
-    padding: 0;
+  @media only screen and (max-width: 850px) {
+    width: 100%;
   }
 `;
 
 const SectionHeader = styled.div`
   text-align: center;
-  padding: 30px 0;
+  margin-bottom: 30px;
 
-  @media only screen and (max-width: 768px) {
-    padding: 20px 0;
+  @media only screen and (max-width: 480px) {
+    margin: 0;
   }
 `;
 
@@ -49,22 +43,21 @@ const SectionTitle = styled.h2`
   padding: 0;
   margin: 0;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 480px) {
     font-size: 30px;
   }
 `;
 
 const SectionPre = styled.span`
   font-size: 16px;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 16px;
-  }
 `;
 
 const SectionContent = styled.div`
   text-align: center;
-  overflow: hidden;
+
+  @media only screen and (max-width: 480px) {
+    margin: 30px 0;
+  }
 `;
 
 const AboutMe = styled.p`
@@ -81,7 +74,7 @@ const AboutMe = styled.p`
 
 const DownloadResume = styled.div`
   text-align: center;
-  margin: 40px 0;
+  margin-top: 30px;
 `;
 
 const PDFLink = styled.a`
@@ -114,8 +107,8 @@ const PDFIcon = styled(FontAwesomeIcon)`
 
   @media only screen and (max-width: 768px) {
     padding: 8px;
-    height: 40px;
-    width: 40px;
+    height: 24px;
+    width: 24px;
   }
 `;
 
@@ -138,7 +131,7 @@ const PDFText = styled.span`
 
 const Copyright = styled.div`
   text-align: center;
-  padding: 20px 0;
+  margin: 30px 0;
 
   .icon { color: ${colors.main}; }
   a { font-weight: bold; }

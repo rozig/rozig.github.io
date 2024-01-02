@@ -32,7 +32,17 @@ const Row = styled.div`
   margin-left: -15px;
 `;
 
-const Page = styled.div``;
+const Page = styled.div`
+  padding: 70px 10px 0 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+
+  @media only screen and (max-width: 768px) {
+    padding: 140px 20px 0 20px;
+  }
+`;
 
 export {
   colors,

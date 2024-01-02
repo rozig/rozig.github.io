@@ -39,6 +39,10 @@ const Type = styled.div`
   z-index: 2;
   left: 50%;
   top: 50%;
+
+  @media only screen and (max-width: 860px) {
+    display: none;
+  }
 `;
 
 const Line = styled.div`
@@ -51,6 +55,10 @@ const Line = styled.div`
   z-index: 1;
   left: 50%;
   width: 0;
+
+  @media only screen and (max-width: 860px) {
+    display: none;
+  }
 `;
 
 const Content = styled.div`
@@ -58,9 +66,9 @@ const Content = styled.div`
   background-color: ${colors.white};
   position: relative;
   text-align: left;
-  margin: 20px 0;
   padding: 10px;
   width: 400px;
+  margin: 20px 0;
 
   &::after, &::before {
     position: absolute;
@@ -78,6 +86,11 @@ const Content = styled.div`
   &::before {
     border-right: 8px solid ${colors.borderGray};
     left: -8px;
+  }
+
+  @media only screen and (max-width: 860px) {
+    width: 100%;
+    margin: 0;
   }
 `;
 
@@ -131,6 +144,10 @@ const Container = styled.div`
       bottom: 30px;
       top: unset;
     }
+  }
+
+  @media only screen and (max-width: 860px) {
+    margin-bottom: 10px;
   }
 `;
 

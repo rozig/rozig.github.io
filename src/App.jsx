@@ -60,6 +60,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Container = styled.div`
+  position: relative;
   width: 1200px;
   height: 100%;
   margin: auto;
