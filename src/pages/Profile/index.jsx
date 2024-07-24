@@ -182,15 +182,6 @@ const Profile = () => {
           </AboutMe>
         </SectionContent>
       </Section>
-      <Section id="education">
-        <SectionHeader>
-          <SectionTitle>Education</SectionTitle>
-          <SectionPre>Where I&rsquo;ve studied.</SectionPre>
-        </SectionHeader>
-        <SectionContent>
-          <Timeline items={state.education} />
-        </SectionContent>
-      </Section>
       <Section id="experience">
         <SectionHeader>
           <SectionTitle>Experience</SectionTitle>
@@ -198,6 +189,15 @@ const Profile = () => {
         </SectionHeader>
         <SectionContent>
           <Timeline items={state.experience} />
+        </SectionContent>
+      </Section>
+      <Section id="education">
+        <SectionHeader>
+          <SectionTitle>Education</SectionTitle>
+          <SectionPre>Where I&rsquo;ve studied.</SectionPre>
+        </SectionHeader>
+        <SectionContent>
+          <Timeline items={state.education} />
         </SectionContent>
       </Section>
       <Section id="skills">
@@ -210,7 +210,7 @@ const Profile = () => {
         </SectionContent>
       </Section>
       <DownloadResume>
-        <PDFLink href="/resume.pdf">
+        <PDFLink href="/ganzorig_erdenebat_resume.pdf">
           <PDFIcon icon={faCloudDownloadAlt}/>
           <PDFText className="desktop">Click here to download my complete resume</PDFText>
           <PDFText className="mobile">Download resume</PDFText>

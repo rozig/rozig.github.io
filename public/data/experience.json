@@ -1,19 +1,21 @@
 [
   {
-    "id": 99,
+    "id": 5,
     "type": "exp",
-    "timeframe": "2013 - Present",
-    "heading": "Freelancing",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    "timeframe": "July 2024 - Present",
+    "heading": "CoreWeave",
+    "title": "Senior Engineer",
+    "location": "Remote",
+    "summary": ""
   },
   {
     "id": 4,
     "type": "exp",
-    "timeframe": "May 2022 - Present",
+    "timeframe": "May 2022 - Jun 2023",
     "heading": "Mux",
     "title": "Software Engineer",
     "location": "San Francisco, CA",
-    "summary": "Coding in elixir ..."
+    "summary": "Worked on billing, authorization and authentication systems. Built a multi-region distributed usage system to support real-time video and data products. Technologies used: Elixir, Phoenix, Go, Kafka, Clickhouse, Postgres, K8s."
   },
   {
     "id": 3,
